@@ -1,0 +1,36 @@
+/* Aligning text */
+h1 {
+  text-align: center;
+}
+
+p {
+  text-align: center;
+}
+
+/* Take away underline */
+a { 
+  text-decoration: none;
+}
+
+/* Making a table and centering words */
+.customers {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  border: 1px solid black;
+
+  width:100%;
+}
+
+.customer-info {
+  display: grid;
+  grid-template-columns: 1fr;
+  border: 1px solid black;
+ 
+  justify-items: center;
+}
+
+/* Taking away bullet points */
+ul {
+  list-style-type: none;
+}
+
